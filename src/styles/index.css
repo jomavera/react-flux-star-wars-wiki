@@ -1,3 +1,10 @@
-/* 
-    General Styles
-*/
+
+.horizontal-scrollable > .row {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.horizontal-scrollable > .row > .col-2 {
+    display: inline-block;
+}
